@@ -8,7 +8,7 @@ class Todo {
 }
 
 final todos = List.generate(
-  20,
+  30,
   (i) => Todo(
     'Todo $i',
     'A description of what needs to be done for Todo $i',
